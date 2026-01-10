@@ -136,7 +136,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ตาราง กลาง-สั้น-ยาวมาก</title>
+    <title>คำศัพท์</title>
     <style>
         table {
             width: 100%;
