@@ -135,7 +135,7 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>ตารางแบบกำหนดความกว้าง</title>
+    <title>คำศัพท์</title>
     <style>
         table {
             width: 100%;
@@ -151,7 +151,7 @@
 
         /* กำหนดสัดส่วนคอลัมน์: ยาว - สั้น - ยาว */
         .col-long {
-            width: 40%;
+            width: 70%;
         }
         .col-short {
             width: 20%;
