@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <html lang="th">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Thai-Eng Dictionary</title>
+    <title>คำภีร์พิชัยสงครามฉบับเกมMOBA</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap" rel="stylesheet">
@@ -22,12 +22,12 @@
             <h1 class="text-4xl font-bold text-indigo-900 mb-2">
                 <i class="fas fa-book-open mr-2 text-indigo-600"></i> My Dictionary
             </h1>
-            <p class="text-gray-600">ค้นหาคำศัพท์ภาษาอังกฤษ-ไทย ได้อย่างรวดเร็ว</p>
+            <p class="text-gray-600">ค้นหาคำศัพท์เกี่ยวกับเกมMOBAได้อย่างรวดเร็ว</p>
         </div>
 
         <div class="glass-morphism rounded-2xl shadow-xl p-2 flex items-center mb-8 border border-white">
             <input type="text" id="searchInput" 
-                placeholder="พิมพ์คำศัพท์ที่ต้องการค้นหา..." 
+                placeholder="พิมพ์คำศัพท์ที่เจ้าต้องการค้นหา..." 
                 class="w-full p-4 rounded-xl focus:outline-none text-lg bg-transparent"
                 onkeyup="handleSearch(event)">
             <button onclick="searchWord()" 
