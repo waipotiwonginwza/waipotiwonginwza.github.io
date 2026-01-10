@@ -76,7 +76,7 @@
                 type: "noun",
                 example: "She is eating a red apple."
             },
-            "code": {
+            "ใบตอง": {
                 meaning: "รหัส, การเขียนโปรแกรม",
                 type: "noun / verb",
                 example: "I love writing clean code."
