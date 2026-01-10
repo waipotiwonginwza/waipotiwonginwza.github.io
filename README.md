@@ -71,21 +71,31 @@
     <script>
         
         const dictionaryData = {
-            "apple": {
-                meaning: "แอปเปิล (ผลไม้ชนิดหนึ่ง)",
-                type: "noun",
-                example: "She is eating a red apple."
+             "invade": {
+                meaning: "ป่วนป่า - การไปรุกรามพื้นที่ฟาร์มป่าของฝั้งตรงข้าม",
+                type: "invade/vade/อินเวด/เวด/เหวด (คำกริยา)",
+                example: "Krixi!!! เธอไปInvadeหน่อย!!."
             },
-            "ใบตอง": {
-                meaning: "รหัส, การเขียนโปรแกรม",
-                type: "noun / verb",
-                example: "I love writing clean code."
+            "vade": {
+                meaning: "ป่วนป่า - การไปรุกรามพื้นที่ฟาร์มป่าของฝั้งตรงข้าม",
+                type: "invade/vade/อินเวด/เวด/เหวด (คำกริยา)",
+                example: "Krixi!!! เธอไปInvadeหน่อย!!."
             },
-            "happy": {
-                meaning: "มีความสุข, ยินดี",
-                type: "adjective",
-                example: "They look so happy together."
-            }
+            "อินเวด": {
+                meaning: "ป่วนป่า - การไปรุกรามพื้นที่ฟาร์มป่าของฝั้งตรงข้าม",
+                type: "invade/vade/อินเวด/เวด/เหวด (คำกริยา)",
+                example: "Krixi!!! เธอไปInvadeหน่อย!!."
+            },
+            "เวด": {
+                meaning: "ป่วนป่า - การไปรุกรามพื้นที่ฟาร์มป่าของฝั้งตรงข้าม",
+                type: "invade/vade/อินเวด/เวด/เหวด (คำกริยา)",
+                example: "Krixi!!! เธอไปInvadeหน่อย!!."
+            },
+            "เหวด": {
+                meaning: "ป่วนป่า - การไปรุกรามพื้นที่ฟาร์มป่าของฝั้งตรงข้าม",
+                type: "invade/vade/อินเวด/เวด/เหวด (คำกริยา)",
+                example: "Krixi!!! เธอไปInvadeหน่อย!!."
+            },
         };
 
         function handleSearch(event) {
