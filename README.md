@@ -131,59 +131,65 @@
             window.speechSynthesis.speak(utterance);
         }
     </script>
-  
+
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <title>คำศัพท์</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตาราง กลาง-สั้น-ยาวมาก</title>
     <style>
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 20px;
+            font-family: sans-serif;
         }
 
         th, td {
-            border: 1px solid #333;
-            padding: 12px;
-            text-align: center;
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: left;
         }
 
-        /* กำหนดสัดส่วนคอลัมน์: ยาว - สั้น - ยาว */
-        .col-long {
-            width: 70%;
+        /* ปรับสัดส่วนตามที่คุณต้องการ */
+        .col-medium {
+            width: 25%;  /* กลาง */
+            background-color: #f9f9f9;
         }
         .col-short {
-            width: 20%;
+            width: 10%;   /* สั้น */
+            text-align: center;
+        }
+        .col-very-long {
+            width: 65%;  /* ยาวมาก */
         }
 
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
+        thead {
+            background-color: #e0e0e0;
         }
     </style>
 </head>
 <body>
 
-    <h2>ตารางข้อมูล (ยาว - สั้น - ยาว)</h2>
+    <h2>ตารางดีไซน์: กลาง | สั้น | ยาวมาก</h2>
 
     <table>
         <thead>
             <tr>
-                <th class="col-long">ช่องยาว (1)</th>
-                <th class="col-short">ช่องสั้น (2)</th>
-                <th class="col-long">ช่องยาว (3)</th>
+                <th class="col-medium">ช่องกลาง (25%)</th>
+                <th class="col-short">สั้น (10%)</th>
+                <th class="col-very-long">ช่องยาวมาก (65%)</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>ข้อมูลแถวที่ 1 คอลัมน์ยาว</td>
+                <td>ข้อมูลขนาดกลาง</td>
                 <td>สั้น</td>
-                <td>ข้อมูลแถวที่ 1 คอลัมน์ยาว</td>
+                <td>นี่คือช่องที่มีพื้นที่ยาวที่สุดสำหรับใส่เนื้อหาจำนวนมากในแถวที่ 1</td>
             </tr>
             <tr>
-                <td>ข้อมูลแถวที่ 2 คอลัมน์ยาว</td>
+                <td>ข้อมูลขนาดกลาง</td>
                 <td>สั้น</td>
-                <td>ข้อมูลแถวที่ 2 คอลัมน์ยาว</td>
+                <td>เนื้อหาในช่องที่สามสามารถขยายยาวออกไปได้ตามความต้องการในแถวที่ 2</td>
             </tr>
             </tbody>
     </table>
