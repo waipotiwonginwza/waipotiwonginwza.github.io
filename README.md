@@ -22,7 +22,7 @@
             <h1 class="text-4xl font-bold text-indigo-900 mb-2">
                 <i class="fas fa-book-open mr-2 text-indigo-600"></i> คำภีร์พิชัยสงครามฉบับเกมMOBA
             </h1>
-            <p class="text-gray-600">ค้นหาคำศัพท์เกี่ยวกับเกมMOBAได้อย่างรวดเร็ว</p>
+            <p class="text-gray-600">ค้นหาคำศัพท์เกี่ยวกับเกมMOBAได้อย่างรวดเร็ว!!!</p>
         </div>
 
         <div class="glass-morphism rounded-2xl shadow-xl p-2 flex items-center mb-8 border border-white">
