@@ -131,5 +131,64 @@
             window.speechSynthesis.speak(utterance);
         }
     </script>
+  
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>ตารางแบบกำหนดความกว้าง</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 12px;
+            text-align: center;
+        }
+
+        /* กำหนดสัดส่วนคอลัมน์: ยาว - สั้น - ยาว */
+        .col-long {
+            width: 40%;
+        }
+        .col-short {
+            width: 20%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>ตารางข้อมูล (ยาว - สั้น - ยาว)</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="col-long">ช่องยาว (1)</th>
+                <th class="col-short">ช่องสั้น (2)</th>
+                <th class="col-long">ช่องยาว (3)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ข้อมูลแถวที่ 1 คอลัมน์ยาว</td>
+                <td>สั้น</td>
+                <td>ข้อมูลแถวที่ 1 คอลัมน์ยาว</td>
+            </tr>
+            <tr>
+                <td>ข้อมูลแถวที่ 2 คอลัมน์ยาว</td>
+                <td>สั้น</td>
+                <td>ข้อมูลแถวที่ 2 คอลัมน์ยาว</td>
+            </tr>
+            </tbody>
+    </table>
+
+</body>
+</html>
 </body>
 </html>
