@@ -96,6 +96,12 @@
                 type: "invade/vade/อินเวด/เวด/เหวด (คำกริยา)",
                 example: "Krixi!!! เธอไปเหวดหน่อย!!."
             },
+             },
+            "ปรานอม": {
+                meaning: "แม่ตอง - แม่ปรานอมห้าดาวขนมไทย",
+                type: "แม่ตอง (คำนาม)",
+                example: "Krixi!!! เธอไปInvadeหน่อย!!."
+            },
         };
 
         function handleSearch(event) {
